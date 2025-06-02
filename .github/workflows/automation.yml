@@ -1,0 +1,37 @@
+name: Run Automation Script
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - 'automation_script.py'
+      - '.github/workflows/automation.yml'
+      - 'requirements.txt'
+
+jobs:
+  run-script:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: |
+          if [ -f requirements.txt ]; then
+            pip install -r requirements.txt
+          else
+            echo "openai>=1.0.0" > temp_requirements.txt
+            echo "requests" >> temp_requirements.txt
+            pip install -r temp_requirements.txt
+          fi
+
+      - name: Run automation script
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+        run: python automation_script.py
