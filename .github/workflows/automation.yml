@@ -13,6 +13,16 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Run script with PAT
+        env:
+          GH_TOKEN: ${{ secrets.GH_TOKEN }}
+        run: |
+          echo "Using PAT securely!"
+          # Example usage:
+          # curl -H "Authorization: token $GH_TOKEN" https://api.github.com/user
       - name: Check out repository
         uses: actions/checkout@v4
 
