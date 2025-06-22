@@ -1,0 +1,12 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"name": "waggle.sol",
+			"path": "../../../.vscode/waggle.sol"
+		}
+	],
+	"settings": {}
+}
