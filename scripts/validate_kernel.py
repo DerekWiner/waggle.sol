@@ -7,7 +7,7 @@ import hashlib
 MANIFEST_PATH = "../../alvearium/docs/anchors_manifest_hash.md"
 
 # Trusted Kernel69 value from NFT metadata
-EXPECTED_HASH = "YK4h0pepnRw5lFmxwA9-61ODxEbnlyCSFznH9DUfhyQ"
+EXPECTED_HASH = "079750372369569155c237157400a53d49df62550e3a5a57b3c30a9026f5c74b"
 
 def get_sha256(file_path):
     with open(file_path, "rb") as f:
