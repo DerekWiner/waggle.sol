@@ -1,0 +1,25 @@
+{
+  "name": "Waggle.sol",
+  "symbol": "WAGGLE",
+  "description": "Waggle.sol is the ritual and interaction layer of the Alvearium OS. It defines semantic behaviors, decentralized execution patterns, and agentic response models across the cryptosphere.",
+  "version": "v0.1-alpha",
+  "anchors": {
+    "anchors.md": "https://arweave.net/gU742_NxFAZ_WC2XNyYZzwWEddfgyIR4kezHPAG-EQk",
+    "anchors_metadata.md": "https://arweave.net/72JHE_62L8OU3OPnHiNsiapF2gWlvay-lMNlPFUX3iQ",
+    "anchors_manifest_hash.md": "https://arweave.net/YK4h0pepnRw5lFmxwA9-61ODxEbnlyCSFznH9DUfhyQ"
+  },
+  "documents": {
+    "manifesto": "https://arweave.net/tVY2W8S18kcnQoqeSLpeoEsx9L3e5ZVa1EFEwKWjmNo",
+    "whitepaper": "https://arweave.net/5df2b91c-0585-4b9d-acd0-8a97e3b143fb",
+    "readme": "https://arweave.net/twtaQ8bdUMWd5iOXrO_I3eEsQedAEqRuVlbmbzzIn9s"
+  },
+  "project": "Alvearium",
+  "role": "Semantic Ritual Engine",
+  "license": "Open Source Without Malice",
+  "integrity": {
+    "sha256_anchors": "<INSERT_ANCHORS_SHA256>",
+    "sha256_metadata": "<INSERT_METADATA_SHA256>",
+    "sha256_manifest": "<INSERT_MANIFEST_SHA256>",
+    "sha256_repo_snapshot": "<OPTIONAL_FULL_SNAPSHOT_HASH>"
+  }
+}
