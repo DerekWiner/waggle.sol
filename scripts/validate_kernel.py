@@ -20,9 +20,9 @@ def main():
     print("Actual:  ", actual_hash)
 
     if actual_hash.startswith(EXPECTED_HASH[:8]):  # short match or full
-        print("✅ Kernel validation PASSED")
-    else:
-        print("❌ Kernel validation FAILED")
+       print("[OK] Kernel validation PASSED")
+else:
+    print("[FAIL] Kernel validation FAILED")
 
 if __name__ == "__main__":
     main()
