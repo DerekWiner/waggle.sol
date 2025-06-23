@@ -4,6 +4,8 @@
 import hashlib
 import os
 
+INCEPTION_REGISTRY_TX = "q4uB75mBr5YpgpEL1VOzG42PxtqYB5XwuNbkIExCVAc"
+
 # Path to the manifest file (adjust if structure changes)
 MANIFEST_PATH = "../../alvearium/docs/anchors_manifest_hash.md"
 
@@ -23,6 +25,7 @@ def main():
     actual_hash = get_sha256(MANIFEST_PATH)
     print("Expected:", EXPECTED_HASH)
     print("Actual:  ", actual_hash)
+    print(f"[INFO] Inception Registry → https://arweave.net/{INCEPTION_REGISTRY_TX}")
 
     if actual_hash == EXPECTED_HASH:
         print("[OK] Kernel validation PASSED")
