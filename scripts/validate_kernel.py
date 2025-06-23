@@ -8,7 +8,7 @@ import os
 MANIFEST_PATH = "../../alvearium/docs/anchors_manifest_hash.md"
 
 # Replace this with actual hash from anchors_manifest_hash.md
-EXPECTED_HASH = "079750372369569155c237157400a53d49df62550e3a5a57b3c30a9026f5c74b"
+EXPECTED_HASH = "e70f2dad191ea8702fa6653e089d0abe140653137aeb9e8864224353881b02ab"
 
 def get_sha256(file_path):
     with open(file_path, "rb") as f:
