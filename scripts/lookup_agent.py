@@ -1,23 +1,33 @@
 # waggle.sol/scripts/lookup_agent.py
 # Simulates looking up an agent from Hive.bnb's registry
-# This is a placeholder for testing interop with hive agent registry
+# This version supports fallback to Arweave-hosted registry if local file is missing
 
 import json
 import os
+import urllib.request
 
-# Simulated registry file path (this would eventually be on-chain or Arweave)
+# Local agent registry path
 AGENTS_FILE = "../../hive.bnb/scripts/agents_sample.json"
+
+# Arweave fallback if local file not found
+ARWEAVE_FALLBACK_URL = "https://arweave.net/gQPJ3lVROKnnQVbsJ_Y-XD7HfMvYHExFu-_OoDlPNwU"
 
 # Example agent address to test
 TEST_AGENT_ADDRESS = "0xBEEf1234567890abcdef1234567890abcdefBEEF"
 
 def load_agents():
-    if not os.path.exists(AGENTS_FILE):
-        print("[ERROR] Agent registry file not found.")
-        return {}
-
-    with open(AGENTS_FILE, "r") as f:
-        return json.load(f)
+    if os.path.exists(AGENTS_FILE):
+        print("[INFO] Loading local agent registry...")
+        with open(AGENTS_FILE, "r") as f:
+            return json.load(f)
+    else:
+        print("[WARN] Local registry not found. Trying Arweave fallback...")
+        try:
+            with urllib.request.urlopen(ARWEAVE_FALLBACK_URL) as response:
+                return json.loads(response.read().decode())
+        except Exception as e:
+            print(f"[ERROR] Failed to load registry from Arweave: {e}")
+            return {}
 
 def lookup_agent(address):
     agents = load_agents()
@@ -25,9 +35,9 @@ def lookup_agent(address):
 
     if agent:
         print(f"[OK] Agent found: {address}")
-        print(f"  Subdomain     : {agent['subdomain']}")
-        print(f"  Metadata Hash : {agent['metadataHash']}")
-        print(f"  Active        : {agent['active']}")
+        print(f"  Subdomain     : {agent.get('subdomain', 'N/A')}")
+        print(f"  Metadata Hash : {agent.get('metadataHash', 'N/A')}")
+        print(f"  Active        : {agent.get('active', 'N/A')}")
     else:
         print(f"[FAIL] No agent registered for: {address}")
 
