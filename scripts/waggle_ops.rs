@@ -13,7 +13,7 @@ pub mod waggle_ops {
 
     pub fn check_manifest_integrity(ctx: Context<ValidateAnchor>, metadata_hash: String) -> Result<()> {
         // Compare received hash to hardcoded canonical hash (from anchors_manifest_hash.md)
-        let expected = "YK4h0pepnRw5lFmxwA9-61ODxEbnlyCSFznH9DUfhyQ";
+        let expected = "pg5AlvJylepa1WqWwWHqKO55F_v0GeeHRpB4sjOB7VQ";
 
         if metadata_hash != expected {
             msg!("❌ Manifest hash mismatch");
