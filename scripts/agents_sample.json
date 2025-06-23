@@ -1,0 +1,22 @@
+{
+  "0xBEEf1234567890abcdef1234567890abcdefBEEF": {
+    "subdomain": "waggle.sol",
+    "metadataHash": "twtaQ8bdUMWd5iOXrO_I3eEsQedAEqRuVlbmbzzIn9s",
+    "active": true
+  },
+  "0xH1V3abcdef9876543210fedcba9876543210H1V3": {
+    "subdomain": "hive.bnb",
+    "metadataHash": "4hgAIpSfbVKMQhfCQZPl8iZD6WMHWnjvfioo_ASSCJU",
+    "active": true
+  },
+  "0xK3RNeL6900001111222233334444555566667777": {
+    "subdomain": "kernel69",
+    "metadataHash": "IBQfhpuWOvnaLa28u_7DHR-Cz2ywlC0IQLn3CZACOlI",
+    "active": true
+  },
+  "0xN3C741abcdefabcdefabcdefabcdefabcdef0000": {
+    "subdomain": "nectar",
+    "metadataHash": "OCcaTiv9Dmbtic-We9vSzvpxUp7TiJ6npCW4diZIukg",
+    "active": false
+  }
+}
