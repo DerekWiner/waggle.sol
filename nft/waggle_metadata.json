@@ -25,4 +25,9 @@
     "swarm_genesis_json": "https://arweave.net/IQcAm8Ql9xHX6dXZL28pdyWVdy2A72LxtESLm3cSO1o",
     "swarm_genesis_md": "https://arweave.net/cECar7wYfFsxjxGTLDBnyZoMZDQm6hUXQvPYLDBrhYY"
   }
+  "kernel_marker": {
+  "json": "https://arweave.net/P-y9Y4dhL6DC33xRP9h_auw-5e49Luiw-jYnCbn6ztI",
+  "md": "https://arweave.net/fNbscqGhQ9EMcrRzQScop8heRSKpT6Z0dgf3wkPltGI"
+},
+"inception_registry": "https://arweave.net/q4uB75mBr5YpgpEL1VOzG42PxtqYB5XwuNbkIExCVAc"
 }
