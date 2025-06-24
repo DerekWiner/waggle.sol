@@ -12,15 +12,15 @@
     }
   ],
   "uploadMethod": "pinata",
+  "pinataConfig": {
+    "jwt": "Bearer ea5e1641e6b0e9e1e0f3"
+  },
+  "apiGateway": "https://gateway.pinata.cloud",
   "ruleSet": null,
   "awsConfig": null,
   "sdriveApiKey": null,
   "nftStorageAuthToken": null,
   "shdwStorageAccount": null,
-  "pinataConfig": {
-    "jwt": "Bearer ea5e1641e6b0e9e1e0f3",
-  "apiGateway": "https://gateway.pinata.cloud",
-  },
   "hiddenSettings": null,
   "guards": null,
   "maxEditionSupply": null
