@@ -1,0 +1,18 @@
+{
+  "program": {
+    "candyMachine": "",
+    "candyGuard": "",
+    "candyMachineCreator": "",
+    "collectionMint": ""
+  },
+  "items": {
+    "0": {
+      "name": "Waggle.sol",
+      "image_hash": "4aef0443b7f6173615734a17843ccf46421a71b9a6b7aa1f4c6050e9882b20ff",
+      "image_link": "https://gateway.pinata.cloud/ipfs/QmTnBViwnbCrZxuZuD8DhNBP8W66c31D9ypNUGhtRLzD3w/0.png",
+      "metadata_hash": "31621e1238ddd21b07075cc48c6f0bf5904cce7e515799644e759c6447e2e9d3",
+      "metadata_link": "https://gateway.pinata.cloud/ipfs/QmZ3bevBmXbUBrV3KwadZ74NuejUTLJfkydx99oZd6kF54/0.json",
+      "onChain": false
+    }
+  }
+}
