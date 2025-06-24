@@ -5,6 +5,10 @@
     "candyMachineCreator": "",
     "collectionMint": ""
   },
+  "collection": {
+    "mint": "",
+    "metadata": ""
+  },
   "items": {
     "0": {
       "name": "Waggle.sol",
