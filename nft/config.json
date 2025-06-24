@@ -11,11 +11,11 @@
       "share": 100
     }
   ],
-  "uploadMethod": "nft_storage",
+  "upload_method": "shdwDrive",
   "ruleSet": null,
   "awsConfig": null,
   "sdriveApiKey": null,
-  "nftStorageAuthToken": "69dcaec1.67e85aa68f6a482793e65379af61815b",
+  "nftStorageAuthToken": null,
   "shdwStorageAccount": null,
   "pinataConfig": null,
   "hiddenSettings": null,
