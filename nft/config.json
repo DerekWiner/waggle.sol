@@ -1,0 +1,24 @@
+{
+  "tokenStandard": "nft",
+  "number": 1,
+  "symbol": "WAGG",
+  "sellerFeeBasisPoints": 0,
+  "isMutable": true,
+  "isSequential": true,
+  "creators": [
+    {
+      "address": "9tBgsxYdL5RFo9NKNSwu4g9cgtULocyptUkFfaTg2ZwT",
+      "share": 100
+    }
+  ],
+  "uploadMethod": "nft_storage",
+  "ruleSet": null,
+  "awsConfig": null,
+  "sdriveApiKey": null,
+  "nftStorageAuthToken": "b1c92fe5.731a4dd8c54c43a7b3435b681f6dcbe0",
+  "shdwStorageAccount": null,
+  "pinataConfig": null,
+  "hiddenSettings": null,
+  "guards": null,
+  "maxEditionSupply": null
+}
