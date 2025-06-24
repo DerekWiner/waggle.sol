@@ -11,7 +11,7 @@
       "share": 100
     }
   ],
-  "uploadMethod": "shdwDrive",
+  "uploadMethod": "shdw",
   "ruleSet": null,
   "awsConfig": null,
   "sdriveApiKey": null,
