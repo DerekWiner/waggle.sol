@@ -180,13 +180,19 @@ This repo is not a blueprint. It’s a **fertile ground** for collective futures
 
 ---
 
+## 🔒 Immutable Reference
+This repository’s anchors are rooted to [this Arweave link](https://arweave.net/0yo9qyWWPfylCCSTxp1eubAKc9hGpktdqOCGBlO23uc).
+Do not alter `waggle_metadata.json` without minting a new swarm anchor.
+
+---
+
 ## 🛸 Project Status
 
 - 🧠 Documentation: `100%`
 - 🌐 Diagram Generation: `Complete`
 - ✍️ Whitepapers + Manifestos: `Complete`
 - ⚙️ Scripts and Init Models: `Stubbed and Working`
-- 📚 Bundled and Ready for Distribution: `In Progress`
+- 📚 Bundled and Ready for Distribution: `Complete`
 
 ---
 
