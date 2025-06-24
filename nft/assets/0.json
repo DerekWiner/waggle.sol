@@ -2,6 +2,27 @@
   "name": "Waggle.sol",
   "symbol": "WAGG",
   "description": "Waggle.sol is the ritual and interaction layer of the Alvearium OS. It defines semantic behaviors, decentralized execution patterns, and agentic response models across the cryptosphere.",
+  "image": "0.png",
+  "properties": {
+    "files": [
+      {
+        "uri": "0.png",
+        "type": "image/png"
+      }
+    ],
+    "category": "image",
+    "creators": [
+      {
+        "address": "YOUR_SOLANA_WALLET_ADDRESS",
+        "share": 100
+      }
+    ]
+  },
+  "attributes": [
+    { "trait_type": "Project", "value": "Alvearium" },
+    { "trait_type": "Role", "value": "Semantic Ritual Engine" },
+    { "trait_type": "Version", "value": "v0.1-alpha" }
+  ],
   "version": "v0.1-alpha",
   "anchors": {
     "anchors.md": "https://arweave.net/SBA7Fjwj9v7Z7nnSxSXFOMefA2DXenYKAi0oByKpSd0",
@@ -30,7 +51,5 @@
     "md": "https://arweave.net/fNbscqGhQ9EMcrRzQScop8heRSKpT6Z0dgf3wkPltGI"
   },
   "inception_registry": "https://arweave.net/q4uB75mBr5YpgpEL1VOzG42PxtqYB5XwuNbkIExCVAc",
-  "image": "0.png",
   "mint_ready": true
 }
-
