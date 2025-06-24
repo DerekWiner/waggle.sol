@@ -1,6 +1,5 @@
-{"v":0,"name":"sugar","msg":"Lend me some sugar, I am your neighbor.","level":30,"hostname":"DESKTOP-Q1I45FO","pid":11750,"time":"2025-06-24T09:09:56.454526432Z","target":"sugar","line":123,"file":"/home/anajun/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/sugar-cli-2.6.0/src/main.rs"}
-{"v":0,"name":"sugar","msg":"ParseError(\"trailing comma at line 23 column 3\")","level":50,"hostname":"DESKTOP-Q1I45FO","pid":11750,"time":"2025-06-24T09:09:56.561664506Z","target":"sugar_cli::config::parser","line":36,"file":"/home/anajun/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/sugar-cli-2.6.0/src/config/parser.rs"}
-parser.rs"}
+{"v":0,"name":"sugar","msg":"Lend me some sugar, I am your neighbor.","level":30,"hostname":"DESKTOP-Q1I45FO","pid":11756,"time":"2025-06-24T09:11:56.587818048Z","target":"sugar","line":123,"file":"/home/anajun/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/sugar-cli-2.6.0/src/main.rs"}
+{"v":0,"name":"sugar","msg":"ParseError(\"missing field `apiGateway` at line 17 column 3\")","level":50,"hostname":"DESKTOP-Q1I45FO","pid":11756,"time":"2025-06-24T09:11:56.673004859Z","target":"sugar_cli::config::parser","line":36,"file":"/home/anajun/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/sugar-cli-2.6.0/src/config/parser.rs"}
 rser.rs"}
 x.crates.io-1949cf8c6b5b557f/sugar-cli-2.6.0/src/config/parser.rs"}
 .nft.storage\"), port=None","level":10,"hostname":"DESKTOP-Q1I45FO","pid":11680,"time":"2025-06-24T08:32:38.727763316Z","target":"hyper::client::connect::http","line":278,"file":"/home/anajun/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/hyper-0.14.32/src/client/connect/http.rs"}
