@@ -1,0 +1,16 @@
+{
+  "name": "Waggle Genesis Collection",
+  "symbol": "WAGGC",
+  "description": "Root collection for all Waggle.sol NFTs.",
+  "image": "collection.png",
+  "seller_fee_basis_points": 0,
+  "properties": {
+    "creators": [
+      { "address": "4dUHCTz2jrwSjkac2m8HVkyEfnjeMzNEE5iWEZcyBc3M", "share": 100 }
+    ],
+    "files": [
+      { "uri": "collection.png", "type": "image/png" }
+    ],
+    "category": "image"
+  }
+}
