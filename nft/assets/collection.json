@@ -1,6 +1,6 @@
 {
   "name": "Waggle Genesis Collection",
-  "symbol": "WAGGC",
+  "symbol": "WAGG",
   "description": "Root collection for all Waggle.sol NFTs.",
   "image": "collection.png",
   "seller_fee_basis_points": 0,
