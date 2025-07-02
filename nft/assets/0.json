@@ -63,7 +63,6 @@
 
   "inception_registry": "https://arweave.net/q4uB75mBr5YpgpEL1VOzG42PxtqYB5XwuNbkIExCVAc",
 
-  /* ----------  forward-compatibility hooks  ---------- */
   "execution_hooks": {
     "hive_bnb": {
       "dao_template": "https://arweave.net/<txid>/hive_dao_blueprint.json",
