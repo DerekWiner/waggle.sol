@@ -10,8 +10,9 @@
     "category": "image",
     "files": [
       { "uri": "0.png", "type": "image/png" }
-    ],
-  
+    ]
+  },
+
   "attributes": [
     { "trait_type": "Project",  "value": "Alvearium" },
     { "trait_type": "Role",     "value": "Semantic Ritual Engine" },
@@ -58,19 +59,6 @@
   },
 
   "inception_registry": "https://arweave.net/q4uB75mBr5YpgpEL1VOzG42PxtqYB5XwuNbkIExCVAc",
-
-  "execution_hooks": {
-    "hive_bnb": {
-      "dao_template": "https://arweave.net/<txid>/hive_dao_blueprint.json",
-      "governance_contract": "",
-      "launch_phase": "alpha"
-    },
-    "nectar_cosmos": {
-      "module": "nectar.core.v1",
-      "chain_id": "",
-      "boot_flag": "pending"
-    }
-  },
 
   "mint_ready": true
 }
