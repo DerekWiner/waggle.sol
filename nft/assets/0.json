@@ -11,11 +11,7 @@
     "files": [
       { "uri": "0.png", "type": "image/png" }
     ],
-    "creators": [
-      { "address": "4dUHCTz2jrwSjkac2m8HVkyEfnjeMzNEE5iWEZcyBc3M", "share": 100 }
-    ]
-  },
-
+  
   "attributes": [
     { "trait_type": "Project",  "value": "Alvearium" },
     { "trait_type": "Role",     "value": "Semantic Ritual Engine" },
