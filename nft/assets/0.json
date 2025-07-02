@@ -12,7 +12,7 @@
       { "uri": "0.png", "type": "image/png" }
     ],
     "creators": [
-      { "address": "<REPLACE_WITH_44_CHAR_SOLANA_PUBLIC_KEY>", "share": 100 }
+      { "address": "9tBgsxYdL5RFo9NKNSwu4g9cgtULocyptUkFfaTg2ZwT", "share": 100 }
     ]
   },
 
