@@ -3,15 +3,23 @@
     "candyMachine": "",
     "candyGuard": "",
     "candyMachineCreator": "",
-    "collectionMint": ""
+    "collectionMint": "5DfdcbR4sz4Yz1tyxryddqXQ7JZLFg6qVRKx8hjWQ7MC"
   },
   "items": {
+    "-1": {
+      "name": "Waggle Genesis Collection",
+      "image_hash": "4aef0443b7f6173615734a17843ccf46421a71b9a6b7aa1f4c6050e9882b20ff",
+      "image_link": "https://gateway.pinata.cloud/ipfs/QmSbuYaZn3Au72Sgfx81bJ9g3kDLCSSCyVSKNMxkjFhAFJ/collection.png",
+      "metadata_hash": "a10815228cf7142a14692cd7d4df2df07b57d8a9b9c57e5e3da15f43dbf4d24b",
+      "metadata_link": "https://gateway.pinata.cloud/ipfs/QmRntkr8RBe2KR8GXTmkL5vZeVt85rBMBk196ei3cWPc9H/collection.json",
+      "onChain": true
+    },
     "0": {
       "name": "Waggle.sol",
       "image_hash": "4aef0443b7f6173615734a17843ccf46421a71b9a6b7aa1f4c6050e9882b20ff",
       "image_link": "https://gateway.pinata.cloud/ipfs/QmTnBViwnbCrZxuZuD8DhNBP8W66c31D9ypNUGhtRLzD3w/0.png",
-      "metadata_hash": "31621e1238ddd21b07075cc48c6f0bf5904cce7e515799644e759c6447e2e9d3",
-      "metadata_link": "https://gateway.pinata.cloud/ipfs/QmZ3bevBmXbUBrV3KwadZ74NuejUTLJfkydx99oZd6kF54/0.json",
+      "metadata_hash": "cc39f660958faeeaab2d188c71a66c6f81b3ac000af5863cbdc9fb1ec8da014a",
+      "metadata_link": "https://gateway.pinata.cloud/ipfs/QmYHogwvEWqS87eiT98tufsMQJ3d7hut1Yp1ef469oYhsT/0.json",
       "onChain": false
     }
   }
