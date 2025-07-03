@@ -4,11 +4,15 @@
   "description": "Root collection for all Waggle.sol NFTs.",
   "image": "collection.png",
   "seller_fee_basis_points": 0,
-
   "properties": {
-    "category": "image",
     "files": [
       { "uri": "collection.png", "type": "image/png" }
-    ]
-  }
+    ],
+    "creators": [
+      { "address": "9EG9FikSjfDGfD7YG8VriaqzRb6SXvfyqYGutFMe3VPg", "share": 100 }
+    ],
+    "category": "image"
+  },
+  "collection": { "name": "Waggle Genesis", "family": "Alvearium" },
+  "attributes": []
 }
